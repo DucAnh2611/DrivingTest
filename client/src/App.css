@@ -1,0 +1,36 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition-duration: .2s; 
+  letter-spacing: .5px;
+}
+
+:root{
+  --Black: #212A3E;
+  --BlackBlur: #212a3e2f;
+  --White: #F1F6F9;
+  --Color1: #2B3467;
+  --Color2: #3C486B;
+  --Color3: #BACDDB;
+  --Color4: #9BA4B5; 
+  --Color5: #FFD3B0;
+  --Color6: #C9F4AA;
+  --Color7: #ff0000;
+  --Wrong: #fd8080;
+  --Correct: #68B984;
+  --LicenseCard: #feefb8;
+}
+
+::selection {
+  background: var(--Black);
+  color: var(--White);
+}
+
+.App {
+  min-height: 100vh;
+  width: auto;
+  position: relative;
+  background-color: var(--White) ;
+}
+html {
+  scroll-behavior: smooth;
+}
